@@ -1,0 +1,14 @@
+div {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 800px;
+  margin: 0 auto;
+}
+
+span {
+  color: #ff8a00;
+}
+
+.navigation-text {
+  text-align: right;
+}
