@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import Context from "../context";
 
 const Article = () => {
+  const data = useContext(Context);
+
   return (
     <div>
       <h3>
-        <span>USER_NAME</span>, we have prepared a new article for you
+        <span>{data}</span>, we have prepared a new article for you
       </h3>
       <p>
         Cacti, with their unique appearance and ability to thrive in harsh
